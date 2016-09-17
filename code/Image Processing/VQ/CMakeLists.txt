@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( VectorQ )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(vq vectorQ.cpp)
+target_link_libraries( vq ${OpenCV_LIBS} )
