@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( HMM )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(hmm intermediate.cpp main.cpp hmm.h hmm_init.cpp)
+target_link_libraries( hmm ${OpenCV_LIBS} )
