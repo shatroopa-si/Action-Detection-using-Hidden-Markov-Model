@@ -1,0 +1,5 @@
+%YAML:1.0
+Project - Action Detection using HMM: Observation Sequence
+Observation Seq: 8
+Seq: [ 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 6, 6 ]
